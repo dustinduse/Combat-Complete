@@ -585,9 +585,9 @@ issues.
 
 #ifndef PRE_RELEASE_DEMO
 //#define BASEGAME "main"
-#define BASEGAME "etmain"
+#define BASEGAME "combat"
 #else
-#define BASEGAME "ettest"
+#define BASEGAME "combattest"
 #endif
 
 // referenced flags

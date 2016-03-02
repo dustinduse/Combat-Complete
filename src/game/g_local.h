@@ -40,9 +40,9 @@ If you have questions concerning this license or the applicable additional terms
 
 // the "gameversion" client command will print this plus compile date
 #ifndef PRE_RELEASE_DEMO
-#define GAMEVERSION         "etmain"
+#define GAMEVERSION         "CC Alpha 0.1"
 #else
-#define GAMEVERSION         "ettest"
+#define GAMEVERSION         "CC Alpha 0.1"
 #endif // PRE_RELEASE_DEMO
 
 #define BODY_QUEUE_SIZE     8
