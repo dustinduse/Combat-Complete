@@ -25,9 +25,6 @@
     <ClCompile Include="..\game\bg_classes.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\game\bg_lib.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\game\bg_misc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -251,9 +248,6 @@
     <ClInclude Include="keycodes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\main\ui\menudef.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\game\q_shared.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -272,11 +266,14 @@
     <ClInclude Include="ui_shared.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\etmain\ui\menudef.h">
+    <ClInclude Include="..\..\combat\ui\menudef.h">
       <Filter>Menu Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\etmain\ui\menumacros.h">
+    <ClInclude Include="..\..\combat\ui\menumacros.h">
       <Filter>Menu Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Combat\ui\menudef.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

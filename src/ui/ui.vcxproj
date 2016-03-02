@@ -145,10 +145,6 @@
   <ItemGroup>
     <ClCompile Include="..\game\bg_campaign.c" />
     <ClCompile Include="..\game\bg_classes.c" />
-    <ClCompile Include="..\game\bg_lib.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="..\game\bg_misc.c" />
     <ClCompile Include="..\game\q_math.c" />
     <ClCompile Include="..\game\q_shared.c" />
@@ -223,9 +219,9 @@
     <None Include="ui.def" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\etmain\ui\menudef.h" />
-    <ClInclude Include="..\..\etmain\ui\menumacros.h" />
-    <ClInclude Include="..\..\main\ui\menudef.h" />
+    <ClInclude Include="..\..\Combat\ui\menudef.h" />
+    <ClInclude Include="..\..\combat\ui\menumacros.h" />
+    <ClInclude Include="..\..\combat\ui\menudef.h" />
     <ClInclude Include="..\cgame\tr_types.h" />
     <ClInclude Include="..\game\bg_classes.h" />
     <ClInclude Include="..\game\bg_public.h" />

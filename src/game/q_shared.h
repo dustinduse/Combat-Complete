@@ -35,27 +35,12 @@ If you have questions concerning this license or the applicable additional terms
 //#define PRE_RELEASE_DEMO
 
 #ifndef PRE_RELEASE_DEMO
-#define Q3_VERSION      "ET 2.60d"
+#define Q3_VERSION      "CC Alpha 0.1"
 #else
-#define Q3_VERSION      "ET 2.32"
-#endif // PRE_RELEASE_DEMO
-// 2.60d: Mac OSX universal binaries
-// 2.60c: Mac OSX universal binaries
-// 2.60b: CVE-2006-2082 fix
-// 2.6x: Enemy Territory - ETPro team maintenance release
-// 2.5x: Enemy Territory FINAL
-// 2.4x: Enemy Territory RC's
-// 2.3x: Enemy Territory TEST
-// 2.2+: post SP removal
-// 2.1+: post Enemy Territory moved standalone
-// 2.x: post Enemy Territory
-// 1.x: pre Enemy Territory
-////
-// 1.3-MP : final for release
-// 1.1b - TTimo SP linux release (+ MP updates)
-// 1.1b5 - Mac update merge in
+#define Q3_VERSION      "CC Alpha 0.1"
+#endif
 
-#define CONFIG_NAME     "etconfig.cfg"
+#define CONFIG_NAME     "config.cfg"
 
 //#define LOCALIZATION_SUPPORT
 
@@ -467,8 +452,8 @@ extern vec3_t bytedirs[NUMVERTEXNORMALS];
 
 // all drawing is done to a 640*480 virtual screen size
 // and will be automatically scaled to the real resolution
-#define SCREEN_WIDTH        640
-#define SCREEN_HEIGHT       480
+#define SCREEN_WIDTH        1024
+#define SCREEN_HEIGHT       768
 
 #define TINYCHAR_WIDTH      ( SMALLCHAR_WIDTH )
 #define TINYCHAR_HEIGHT     ( SMALLCHAR_HEIGHT )
